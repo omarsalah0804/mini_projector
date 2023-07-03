@@ -269,3 +269,39 @@ section{
     text-decoration: none;
 
 }
+
+
+@media (max-width:2000px){
+    .uv ,.project-card {
+        margin-left: 250px;
+    }
+    
+    .content .uv{
+        margin-left: 145px;
+    }
+    .icon-contact{
+        margin-left: 60px;
+    }
+    .educotion .uv {margin-left: 300px;}
+}
+@media (max-width:1500px){
+    
+    .uv ,.project-card {
+        margin-left: 120px;
+    }
+    
+    .content .uv{
+        margin-left: 145px;
+    }
+    .icon-contact{
+        margin-left: 1px;
+    }
+    .educotion .uv {
+        margin-left: 150px;
+    }
+    @media (max-width:1200px){
+        .main{
+           background-size: cover; 
+        }
+    } 
+}
