@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+
+
+*{
+    font-family: 'Bacasime Antique', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+body{
+    background-color: #FFF7D4;
+}
+header{
+    background-color: #4C3D3D ; 
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color: #fff ;
+    font-weight: 700;
+    font-size: 1.5em;
+
+}
+.logo span{
+    color: #FFD95A;
+}
+.navigation a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding-left: 30px;
+
+
+}
+
+.navigation a:hover{
+    color: #FFD95A;
+}
+section{
+    padding: 100px 200px;
+
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(./photo/Untitled\ design\ \(4\).png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.main h2{
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+    text-shadow: #040000;
+    
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #FFD95A;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.main h3{
+    color: #fff;
+    font-size: 1.0em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-shadow: #040000;
+
+}
+.main-btn{
+    color: #fff;
+    background-color: #FFD95A;
+    text-decoration: none;
+    font-size: 1.0em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.5s ease;
+}
+.main-btn:hover{
+    background-color: #c4a749;
+    transform: scale(1.1);
+
+}
