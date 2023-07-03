@@ -6,22 +6,22 @@
     <title>omar salah</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    <link rel="icon" href="./photo/logo.png">
 </head>
 <body>
     <header>
-        <a href="#" class="logo"><span>O</span>mar <span>S</span>alah</a>
+        <a href="#" class="logo"><img src="./photo/logo-omar.png" alt="logo" width="190px"></a>
         <nav class="navigation">
-            <a href="#">home</a>
-            <a href="#">educotion</a>
-            <a href="#">project</a>
-            <a href="#">experiences</a>
-            <a href="#">skills</a>
-            <a href="#">contact me</a>
+            <a href="#home">home</a>
+            <a href="#educotion">educotion</a>
+            <a href="#project">project</a>
+            <a href="#experiences">experiences</a>
+            <a href="#skills">skills</a>
+            <a href="#contact">contact me</a>
         </nav>
     </header>
 
-    <section class="main">
+    <section class="main" id="home">
         <div>
             <h2>Omar Khaled Salah<br>I'm a will be <span>Full-stack </span> Developer </h2>
             <h3>Software engineer with a proven ability to adapt in both self - starting and collaborative
@@ -30,9 +30,132 @@
                    expand my learning and build upon my developer skills</h3>
             <a href="#" class="main-btn">Download CV</a>
         </div>
-
     </section>
-    
+
+    <section class="educotion" id="educotion">
+        <h2 class="title">Educotion</h2>
+        <div class="content" style="display: flex;">
+            <div class="uv">
+                <div class="icon">
+                    <img src="./photo/University-of-Jordan-logo-.png" alt="university of jordan" width="300" height="auto">
+                </div>
+                <div class="info">
+                    <h3>university of jordan</h3>
+                    <p>student At the Jordan University (JU) / Aqaba, I
+                        am studying business information
+                        technology(BIT), and I am still studying, I have
+                        not graduated yet</p>
+                </div>
+            </div>
+            <div class="uv">
+                <div class="icon">
+                    <img src="./photo/orange.jpg" alt="orange" width="200" height="auto">
+                </div>
+                <div class="info">
+                    <h3>orange coding academy</h3>
+                    <p>full stack web development training program 2023/june until now</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="project" id="project">
+        <h2 class="title">project</h2>
+        <div class="content" style="display: flex">
+            <div class="project-card">
+                <div class="project-image">
+                <img src="./photo/R.png">
+                </div>
+                <div class="project-info">
+                    <p class="project-title">portfolio</p>
+                      <p class="project-category">my portfolio website build by HTML and CSS</p>
+                    <a href="#" class="link-portfolio">View Page</a>
+                </div>
+            </div>
+        
+        
+            <div class="project-card">
+                <div class="project-image">
+                <img src="./photo/pexels-photo-965345.jpeg" width="200" height="100">
+                </div>
+                <div class="project-info">
+                    <p class="project-title">Lorem, ipsum dolor</p>
+                      <p class="project-category">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="educotion" id="experiences">
+        <h2 class="title">experiences</h2>
+        <div class="content" style="display: flex;">
+            <div class="uv">
+                <div class="icon">
+                    <img src="./photo/coding academy.png" alt="orange coding" width="300" height="200">
+                </div>
+                <div class="info">
+                    <h3>coding academy</h3>
+                    <p>soft skills orange coding academy 2023/june until now</p>
+                </div>
+            </div>
+            <div class="uv">
+                <div class="icon">
+                    <img src="./photo/ok.jpg" alt="orange" width="200" height="auto">
+                </div>
+                <div class="info">
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="title">skills</h2>
+        <div class="content">
+            <div class="skill-card">
+                <img src="./photo/css-removebg.png">
+                <img src="./photo/logo-html-5-768.png">
+            </div>
+        </div>
+    </section>
+    <section class="cards contact" id="contact">
+        <h2 class="title">contact me</h2>
+        <div class="content" style="display: flex;">
+            <div class="uv">
+                <div class="icon-contact">
+                    <img src="./photo/Untitled_design__8_-removebg-preview.png" alt="university of jordan" width="300" height="auto">
+                </div>
+                <div class="cards-contact">
+                    <h3>phone</h3>
+                    <p>+962799742617</p>
+                </div>
+            </div>
+            <div class="uv">
+                <div class="icon-contact">
+                    <img src="./photo/Untitled_design__7_-removebg-preview.png" alt="orange" width="200" height="auto">
+                </div>
+                <div class="cards-contact">
+                    <h3>email</h3>
+                    <p>omarsalah0804@gmail.com</p>
+                </div>
+            </div>
+            <div class="uv">
+                <div class="icon-contact">
+                    <img src="./photo/Untitled_design__6_-removebg-preview.png" alt="orange" width="200" height="auto">
+                </div>
+                <div class="cards-contact">
+                    <h3>location</h3>
+                    <p>Aqaba Al-Balad - Third Commercial - Petra St</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+     <p class="footer-title">Copyright © 2023 <span> omar salah </span></p>
+     <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-linkedin fa-beat-fade" style="color: #ffd95a;"></i></a>
+        <a href="#"><i class="fa-brands fa-github fa-beat-fade" style="color: #ffd95a;"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter fa-beat-fade" style="color: #ffd95a;"></i></a>
+     </div>
+    </footer>
     
 </body>
 </html>
