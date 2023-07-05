@@ -90,7 +90,7 @@ section{
 
 }
 .main-btn{
-    color: #fff;
+    color: #4C3D3D;
     background-color: #FFD95A;
     text-decoration: none;
     font-size: 1.0em;
@@ -231,7 +231,7 @@ section{
    
     width: 100px;
     height: 100px;
-    margin-left: 35px;
+    margin-left: 45px;
 }
 
 .cards-contact{
@@ -270,7 +270,7 @@ section{
 
 }
 
-
+/* 
 @media (max-width:2000px){
     .uv ,.project-card {
         margin-left: 250px;
@@ -304,4 +304,4 @@ section{
            background-size: cover; 
         }
     } 
-}
+} */
