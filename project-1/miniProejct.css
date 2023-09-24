@@ -1,0 +1,157 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    padding: 8px;
+}
+
+header {
+    padding-top: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & i {
+        font-size: 24px;
+    }
+
+    & .fa-utensils {
+        font-size: 25px;
+        background-color: #333232;
+        padding: 50%;
+    }
+}
+
+.logo {
+    display: flex;
+    width: 25px;
+    align-items: center;
+}
+
+.cerly {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Brush Script MT', cursive;
+}
+
+[class*='fa']:not(.fa-utensils) {
+    color: rgb(87, 87, 87);
+}
+
+.italc {
+    white-space: nowrap
+}
+
+.strip {
+    background-image: linear-gradient(45deg,
+            #ffffff 28.57%,
+            #e0e0e0 28.57%,
+            #e0e0e0 50%,
+            #ffffff 50%,
+            #ffffff 78.57%,
+            #e0e0e0 78.57%,
+            #e0e0e0 100%);
+    background-size: 9.9px 9.9px;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin-bottom: 0;
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.italicFont {
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: gray;
+}
+
+img {
+    width: 100%;
+}
+
+.crmson {
+    font-family: 'Crimson Text', serif;
+    color: gray;
+}
+
+.zaForm {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url(./resourses/list-bg.png);
+    box-shadow: -1px 1px 10px 0px grey;
+    margin: 0;
+
+
+    & div:nth-child(1) {
+        margin-left: 35px;
+    }
+
+}
+
+td label {
+    font-family: patrick hand, cursive;
+    color: rgba(128, 128, 128, 0.785);
+    line-height: 35px;
+}
+
+.hr {
+    margin-top: -80px;
+    width: 47%;
+    display: inline-block;
+}
+
+.author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & img {
+        border-radius: 50%;
+        box-shadow: 1px 0px 10px rgba(128, 128, 128, 0.525);
+    }
+}
+
+.shareBtn {
+    color: rgb(255, 255, 255);
+    background-color: #d16330;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 31px;
+    padding: 12px;
+    border: 0;
+    box-shadow: 1px 1px 10px black;
+    text-transform: uppercase;
+    width: 14vw;
+}
+
+.sub-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-sub-div {
+    display: flex;
+}
+.footer{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.651);
+    margin-top: 10px;
+    & span{
+        display: block;
+    }
+}
